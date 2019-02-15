@@ -1,0 +1,147 @@
+/*this is in desktop view*/
+body{
+	background-color: yellow
+}
+.maindiv{
+	background-color: bisque;
+	margin: 5%;
+	display:flex;
+	justify-content:space-around;
+	border-radius: 5%;
+}
+.subdiv1{
+	background-color: aqua;
+	border-radius: 5%;
+	text-align: center;
+	margin:4%;
+    box-shadow: 4px 4px 4px 4px;
+    width:25%;
+    height: 40%;
+}
+
+img{
+	height: 40%;
+	width:70%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.subdiv2{
+	background-color: aqua;
+	border-radius: 5%;
+	width:50%;
+	text-align:left;
+	margin:4%;
+	padding-left: 10px;
+	box-shadow:  4px 4px 4px 4px; 
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	overflow-x:auto; 
+}
+/*this is in mobile view*/
+@media screen and (min-width: 320px) and (max-width: 500px) {
+body{
+	background-color: aqua;
+}
+.maindiv{
+	background-color: yellow;
+	margin: 2%;
+	display:inline-block;
+	/*justify-content:space-around;*/
+	border-radius: 3%;
+	width: 98%;
+}
+.subdiv1{
+	background-color: bisque;
+	border-radius: 3%;
+	text-align: center;
+	margin:15%;
+    box-shadow: 1px 1px 1px 1px;
+    width:65%;
+    height: 40%;
+    padding: 2%;
+}
+
+img{
+	height: 40%;
+	width:70%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.subdiv2{
+	background-color: bisque;
+	border-radius: 3%;
+	width:90%;
+	text-align:left;
+	margin:2%;
+	padding-left: 2%;
+	box-shadow:  1px 1px 1px 1px; 
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+}
+/*this is for tablet view*/
+@media screen and (min-width: 501px) and (max-width: 650px) {
+body{
+	background-color: bisque
+}
+.maindiv{
+	background-color: aqua;
+	margin: 5%;
+	display:inline-block;
+	/*justify-content:space-around;*/
+	border-radius: 5%;
+}
+.subdiv1{
+	background: yellow;
+	border-radius: 5%;
+	display:flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin:4%;
+    box-shadow: 4px 4px 4px 4px;
+    width:90%;
+    height: 40%;
+}
+.subdiv11{
+	background-color: lightpink;
+	margin: 4%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1px 1px;
+
+}
+.subdiv12{
+	background-color: lightpink;
+	margin: 4%;
+	border-radius: 3%;
+	box-shadow: 1px 1px 1px 1px;
+
+
+}
+
+img{
+	height: 40%;
+	width:70%;
+	margin-top: 4%;
+	border-radius: 4%;
+}
+.subdiv2{
+	background-color: yellow;
+	border-radius: 5%;
+	width:90%;
+	text-align:left;
+	margin:4%;
+	padding-left: 2%;
+	box-shadow:  4px 4px 4px 4px; 
+}
+table,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}

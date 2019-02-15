@@ -1,0 +1,46 @@
+{
+"profile":{
+	"img":"image.jpg",
+	"name":"nidhi jain",
+	"roll":"12345",
+	"place":"kakinada",
+	"des":"student"
+},
+"career":{
+	"info":"i want to seek a position where i can explore my thoughts"
+},
+"education":[
+{
+	"sno":"1",
+	"degree":"b.tech",
+	"institute":"pragati",
+	"per":"90",
+	"yop":"2018"
+},
+{
+	"sno":"2",
+	"degree":"inter",
+	"institute":"narayana jr college",
+	"per":"98",
+	"yop":"2014"
+},
+{
+	"sno":"3",
+	"degree":"s.s.c",
+	"institute":"st.joseph's school",
+	"per":"80",
+	"yop":"2012"
+}
+],
+"languages":[
+      {
+      	"lang":"english"
+      },
+      {
+      	"lang":"telugu"
+      },
+      {
+      	"lang":"hindi"
+      }
+]
+}
